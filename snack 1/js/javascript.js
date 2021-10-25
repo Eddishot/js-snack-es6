@@ -61,7 +61,7 @@ function lightbici(array){
     }
     // creo una costante per cercare il peso minore
     
-    const pesoLight = Math.min (... pesoBici)
+    const pesoLight = Math.min(...pesoBici)
     
     console.log(pesoLight);
 
@@ -69,7 +69,9 @@ function lightbici(array){
 
     for (let i = 0; i < array.length; i++){
 
-        if(pesoBici[i].peso === pesoLight){
+        if(array[i].peso === pesoLight){
+
+            return array[i]
         
         }
     } 
@@ -78,6 +80,8 @@ function lightbici(array){
 
 // invoco la funzione
 
-lightbici(biciArray)
+  let biciLeggera =lightbici(biciArray)
+  
+  console.log(biciLeggera)
 
 
