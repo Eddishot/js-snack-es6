@@ -51,7 +51,7 @@ function lightbici(array){
     // creo un ciclo for per estarre i pesi delle bici
 
     for (let i = 0; i < array.length; i++) {
-        
+
         const {peso} = array [i];
 
 
@@ -70,8 +70,7 @@ function lightbici(array){
     for (let i = 0; i < array.length; i++){
 
         if(pesoBici[i].peso === pesoLight){
-
-            alert(`Complimenti il peso della tua bici è ${array[i].nome} e pesa ${pesoLight}`)
+        
         }
     } 
 
@@ -80,4 +79,5 @@ function lightbici(array){
 // invoco la funzione
 
 lightbici(biciArray)
+
 
