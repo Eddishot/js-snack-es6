@@ -44,7 +44,7 @@ const squadre =[
     },
 ]
 
-console.log(squadre)
+
     
 
 // creo due variabili per mettere il Math.Random
@@ -79,6 +79,10 @@ const squadreFinali = []
 
 
 for (let i = 0; i < squadre.length; i++) {
-    let  element = array[i];
-        
+    const {nome, falli} = squadre[i];
+
+    squadreFinali.push({nome, falli})
+    
 }
+
+console.log(squadreFinali)
