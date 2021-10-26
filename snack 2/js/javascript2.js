@@ -73,3 +73,12 @@ for ( let i = 0; i < squadre.length; i++ ){
 }
 
 console.log(squadre)
+
+
+const squadreFinali = []
+
+
+for (let i = 0; i < squadre.length; i++) {
+    let  element = array[i];
+        
+}
